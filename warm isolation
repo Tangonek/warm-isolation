@@ -14,8 +14,3 @@ Duration = 5;
 Frame.Active = true -- main = gui
 Frame.Draggable = true
 
-onof.MouseButton1Down:connect(function()
-
-	if nowe == true then
-		nowe = false
-end
