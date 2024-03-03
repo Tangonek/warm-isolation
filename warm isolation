@@ -10,4 +10,12 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "BY TANGO";
 	Icon = "rbxthumb://type=Asset&id=16607866349&w=150&h=150"})
 Duration = 5;
+
+Frame.Active = true -- main = gui
+Frame.Draggable = true
+
+onof.MouseButton1Down:connect(function()
+
+	if nowe == true then
+		nowe = false
 end
