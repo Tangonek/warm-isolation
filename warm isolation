@@ -1,0 +1,7 @@
+while true do
+wait(0.1)
+local args = {
+    [1] = true}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.SubmitVote:FireServer(unpack(args))
+end
